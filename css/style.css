@@ -493,8 +493,8 @@ textarea.form-control {
 }
 
 #l2 {
-  top: 80px;
-  left: -15px;
+  top: 5%;
+  left: -2%;
 }
 
 #l3 {
@@ -503,27 +503,27 @@ textarea.form-control {
 }
 
 #l4 {
-  top: 100px;
+  top: 25%;
   right: 30%;
 }
 
 #l5 {
-  top: 100px;
-  right: -10px;
+  top: 10%;
+  right: -1%;
 }
 
 #l6 {
-  bottom: -40px;
+  bottom: -4%;
   left: 20%;
 }
 
 #l7 {
-  bottom: 30px;
-  left: 25%;
+  bottom: 3%;
+  left: 23%;
 }
 
 #l8 {
-  bottom: 100px;
+  bottom: 10%;
   right: 35%;
 }
 
@@ -921,4 +921,18 @@ blockquote {
 
 .slick-list .draggable {
   min-height: 466px !important;
+}
+
+#footer-social {
+  margin-top: -11rem!important;
+  zoom: 150%;
+  left: 90%;
+}
+
+@media (max-width: 767px) {
+  #footer-social {
+    margin-top: -11rem!important;
+    zoom: 150%;
+    left: 70%;
+  }
 }
