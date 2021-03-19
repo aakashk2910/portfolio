@@ -980,14 +980,16 @@ blockquote {
 #footer-social {
   margin-top: -11rem!important;
   zoom: 150%;
-  left: 90%;
+  float: right;
+  margin-right: 2rem;
 }
 
 @media (max-width: 767px) {
   #footer-social {
     margin-top: -11rem!important;
     zoom: 150%;
-    left: 70%;
+    float: right;
+    margin-right: 1rem;
   }
 }
 
