@@ -211,6 +211,10 @@ a:hover {
 .section {
   padding-top: 80px;
   padding-bottom: 80px;
+  overflow-x: hidden;
+  padding-right: 0;
+  padding-left: 0;
+  margin: 0;
 }
 
 .section-title {
@@ -426,18 +430,21 @@ textarea.form-control {
 .navigation.nav-bg {
   background-color: #3581B8;
   padding: 15px 100px;
+  margin: 0;
 }
 
 @media (max-width: 991px) {
   .navigation.nav-bg {
-    padding: 15px 20px;
+    padding:15px 0 0 25px;
+    margin: 0;
   }
 }
 
 @media (max-width: 991px) {
   .navigation {
-    padding: 20px;
+    /*padding: 20px;*/
     background: #3581B8;
+    margin: 0;
   }
 }
 
@@ -462,8 +469,8 @@ textarea.form-control {
 
 @media (max-width: 767px) {
   .hero-area {
-    padding: 250px 0 150px;
-    overflow: hidden;
+    padding: 250px 0 0;
+    overflow-x: hidden;
   }
 }
 
@@ -1001,4 +1008,10 @@ blockquote {
   width: 100%;
   height: 100%;
   border: none;
+}
+
+html body {
+  margin:0;
+  padding:0;
+  overflow-x:hidden;
 }
