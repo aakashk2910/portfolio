@@ -655,9 +655,9 @@ textarea.form-control {
 /* /skills */
 /* education */
 .edu-bg-image {
-  position: absolute;
+  position: relative;
   left: 0;
-  top: -300px;
+  top: -880px;
   z-index: -1;
 }
 
