@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Kamble;Aakash;;Mr.;
+FN:Aakash Kamble
+ORG:Hapag-Lloyd AG
+TITLE:Cloud Platform Engineer
+TEL;TYPE=WORK,VOICE:+49 17662739219 
+ADR;TYPE=WORK:;;;Hamburg;;20354;Germany
+EMAIL:aakash.kamble@hlag.com
+END:VCARD
